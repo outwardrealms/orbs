@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="50c4-74f4-df71-cd8b" name="The Realm" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="7a3f-fac5-4825-d9c9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="91c7-8db0-03b7-3a3b" name="Augment Major" hidden="false"/>
+    <categoryEntry id="e87b-35a6-8a05-8352" name="Augment Specialist" hidden="false"/>
+    <categoryEntry id="af00-7944-75e6-2ed1" name="Augment Squad" hidden="false"/>
+    <categoryEntry id="21f2-797a-ede2-e3e3" name="Augment Exosuit Squad" hidden="false"/>
+    <categoryEntry id="fbbd-9ef7-8c11-7679" name="Augment Gravbike Squad" hidden="false"/>
+    <categoryEntry id="5346-6b3e-a437-68af" name="Augment Scout Tank" hidden="false"/>
+    <categoryEntry id="a20d-df96-3f33-08cd" name="Augment Battle Tank" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="626c-29ec-21ae-5b5c" name="Realm Roster" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe61-b20c-a052-2a64" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c2b6-24dc-5e98-b02d" name="Commander" hidden="false" targetId="1ac3-41ef-6f37-4a2f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c7a-b331-08e7-b781" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577b-5e69-1b0f-d506" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8bc5-3a16-37ed-2613" name="Construct" hidden="false" targetId="c753-938d-5f87-74ef" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="995c-4d4d-0f42-567b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d6bd-2d81-a3f7-347a" name="Heavy Infantry" hidden="false" targetId="2cb7-a5ba-2936-75c7" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78dc-6a4d-2d91-64e4" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="0895-0631-8099-9b03" name="Infantry" hidden="false" targetId="34de-b34a-872c-1dcf" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73db-8ecc-b57e-f432" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7189-d4c8-7919-7048" name="Skirmisher" hidden="false" targetId="d517-c8cf-5373-c6c0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad3a-96a9-2bf1-a89f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6db4-4113-72e7-7219" name="Reserves" hidden="false" targetId="3dec-c067-63f8-36d7" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="4db2-d7cd-ef03-bba3" name="Augment Major" hidden="false" collective="false" import="true" targetId="cd9f-0bd8-7805-c09e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="98c1-2b0d-af39-c9e8" name="Augment Major" hidden="false" targetId="91c7-8db0-03b7-3a3b" primary="false"/>
+        <categoryLink id="234e-2e9c-f5b8-5820" name="Character" hidden="false" targetId="6754-bfb2-cf67-4d02" primary="false"/>
+        <categoryLink id="b28f-2558-d8b5-9511" name="Commander" hidden="false" targetId="1ac3-41ef-6f37-4a2f" primary="true"/>
+        <categoryLink id="6edf-bcb0-0008-c7d6" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7a84-072c-72f3-6a4d" name="Augment Specialist" hidden="false" collective="false" import="true" targetId="26ec-57ea-4238-b056" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="600e-1bc2-ec65-f73d" name="Annihilation" hidden="false" targetId="b892-f0d5-e78c-8e98" primary="false"/>
+        <categoryLink id="450b-93cb-1e64-9a06" name="Augment Specialist" hidden="false" targetId="e87b-35a6-8a05-8352" primary="false"/>
+        <categoryLink id="b1dd-0b65-59af-e230" name="Character" hidden="false" targetId="6754-bfb2-cf67-4d02" primary="false"/>
+        <categoryLink id="2921-b037-6b70-df8e" name="New CategoryLink" hidden="false" targetId="2cb7-a5ba-2936-75c7" primary="true"/>
+        <categoryLink id="db6b-b784-fdf2-2966" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="139f-dd14-2b47-539a" name="Augment Squad" hidden="false" collective="false" import="true" targetId="a237-e0b5-73e7-e942" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5f3b-b091-d2e8-c009" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+        <categoryLink id="7b6f-f0d7-4d33-a310" name="Augment Squad" hidden="false" targetId="af00-7944-75e6-2ed1" primary="false"/>
+        <categoryLink id="9c3c-3c4c-7470-72ba" name="Infantry" hidden="false" targetId="34de-b34a-872c-1dcf" primary="true"/>
+        <categoryLink id="1b8d-4aac-f380-0ad2" name="Occupation" hidden="false" targetId="7eee-eca5-ef1c-10d3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9031-8fda-3c98-a619" name="Augment Gravbike Squad" hidden="false" collective="false" import="true" targetId="26a8-15e5-a42b-ccc6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0eca-f11b-1175-90cc" name="Augment Gravbike Squad" hidden="false" targetId="fbbd-9ef7-8c11-7679" primary="false"/>
+        <categoryLink id="a42c-bf1c-241f-7b12" name="Fly" hidden="false" targetId="1be0-bb9b-f4bb-8d55" primary="false"/>
+        <categoryLink id="25a1-3a56-543c-742e" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+        <categoryLink id="9eda-0c03-1858-20df" name="Recon" hidden="false" targetId="7036-6761-a7ac-882b" primary="false"/>
+        <categoryLink id="5d3d-fef8-498b-890f" name="New CategoryLink" hidden="false" targetId="d517-c8cf-5373-c6c0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e938-dd6a-d884-a60e" name="Augment Exosuit Squad" hidden="false" collective="false" import="true" targetId="0021-db51-fbd7-24c9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="aedb-246d-ba31-2688" name="Augment Exosuit Squad" hidden="false" targetId="21f2-797a-ede2-e3e3" primary="false"/>
+        <categoryLink id="9d87-3d0f-a937-725b" name="Fly" hidden="false" targetId="1be0-bb9b-f4bb-8d55" primary="false"/>
+        <categoryLink id="0f4e-ffb7-421a-9c19" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+        <categoryLink id="08be-1330-1ba1-e3b4" name="Recon" hidden="false" targetId="7036-6761-a7ac-882b" primary="false"/>
+        <categoryLink id="6a5e-be4d-412d-f9b3" name="Skirmisher" hidden="false" targetId="d517-c8cf-5373-c6c0" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a73b-be04-2464-93c1" name="Augment Scout Tank" hidden="false" collective="false" import="true" targetId="7ddb-9409-7f7b-4903" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1c62-f267-d323-e178" name="Augment Scout Tank" hidden="false" targetId="5346-6b3e-a437-68af" primary="false"/>
+        <categoryLink id="ea2a-b2e0-7810-336f" name="Construct" hidden="false" targetId="c753-938d-5f87-74ef" primary="true"/>
+        <categoryLink id="44a1-0055-be5c-43c6" name="Fly" hidden="false" targetId="1be0-bb9b-f4bb-8d55" primary="false"/>
+        <categoryLink id="7218-db6f-6d61-c71b" name="Recon" hidden="false" targetId="7036-6761-a7ac-882b" primary="false"/>
+        <categoryLink id="059b-c7bf-dd46-9ee6" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dbf9-1938-0d2d-3137" name="Augment Battle Tank" hidden="false" collective="false" import="true" targetId="1c94-6380-7fd1-4ca1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0779-8ef5-f8a3-c3fd" name="Annihilation" hidden="false" targetId="b892-f0d5-e78c-8e98" primary="false"/>
+        <categoryLink id="e102-e379-e8d7-677b" name="Augment Battle Tank" hidden="false" targetId="a20d-df96-3f33-08cd" primary="false"/>
+        <categoryLink id="88d1-7daa-93ef-6011" name="New CategoryLink" hidden="false" targetId="c753-938d-5f87-74ef" primary="true"/>
+        <categoryLink id="993c-8cec-0729-daa4" name="Fly" hidden="false" targetId="1be0-bb9b-f4bb-8d55" primary="false"/>
+        <categoryLink id="d84c-f854-aeaa-7e5d" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3724-e0d9-4c4c-e2fb" name="Augment Battle Tank" hidden="false" collective="false" import="true" targetId="d0e7-3d05-e336-d16f" type="selectionEntry">
+      <comment>For strategic reserves.</comment>
+      <categoryLinks>
+        <categoryLink id="bc9a-7626-1af8-02ba" name="Annihilation" hidden="false" targetId="b892-f0d5-e78c-8e98" primary="false"/>
+        <categoryLink id="cfd0-d06d-d982-5de7" name="Augment Battle Tank" hidden="false" targetId="a20d-df96-3f33-08cd" primary="false"/>
+        <categoryLink id="6e58-bca7-c349-e5a8" name="Fly" hidden="false" targetId="1be0-bb9b-f4bb-8d55" primary="false"/>
+        <categoryLink id="fad3-dd05-93db-70ed" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+        <categoryLink id="c765-1eb2-bdae-74c6" name="Construct" hidden="false" targetId="c753-938d-5f87-74ef" primary="false"/>
+        <categoryLink id="0c41-9a4a-d243-152f" name="New CategoryLink" hidden="false" targetId="3dec-c067-63f8-36d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fd4f-0ef8-fd60-c50b" name="Augment Exosuit Squad" hidden="false" collective="false" import="true" targetId="9a60-3cfb-a78c-2684" type="selectionEntry">
+      <comment>For strategic reserves.</comment>
+      <categoryLinks>
+        <categoryLink id="82d8-baef-8567-bda1" name="Augment Exosuit Squad" hidden="false" targetId="21f2-797a-ede2-e3e3" primary="false"/>
+        <categoryLink id="72f3-6aa2-4e67-5d53" name="Fly" hidden="false" targetId="1be0-bb9b-f4bb-8d55" primary="false"/>
+        <categoryLink id="704c-f03d-37f4-0b86" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+        <categoryLink id="a843-104b-fb3d-43ee" name="Recon" hidden="false" targetId="7036-6761-a7ac-882b" primary="false"/>
+        <categoryLink id="bda2-d304-31d6-7d18" name="Skirmisher" hidden="false" targetId="d517-c8cf-5373-c6c0" primary="false"/>
+        <categoryLink id="b604-ee25-0207-92bd" name="New CategoryLink" hidden="false" targetId="3dec-c067-63f8-36d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9710-7c28-bd2a-84e4" name="Augment Gravbike Squad" hidden="false" collective="false" import="true" targetId="83fc-a47a-0d38-7386" type="selectionEntry">
+      <comment>For strategic reserves.</comment>
+      <categoryLinks>
+        <categoryLink id="f2f6-f967-b7b6-220c" name="Augment Gravbike Squad" hidden="false" targetId="fbbd-9ef7-8c11-7679" primary="false"/>
+        <categoryLink id="1bb7-4969-7790-a35f" name="Fly" hidden="false" targetId="1be0-bb9b-f4bb-8d55" primary="false"/>
+        <categoryLink id="0c26-8c41-dbed-c84b" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+        <categoryLink id="e28c-82bd-35e9-e634" name="Recon" hidden="false" targetId="7036-6761-a7ac-882b" primary="false"/>
+        <categoryLink id="ad84-abf1-9144-5e74" name="Skirmisher" hidden="false" targetId="d517-c8cf-5373-c6c0" primary="false"/>
+        <categoryLink id="9c53-6ac8-4792-8f15" name="New CategoryLink" hidden="false" targetId="3dec-c067-63f8-36d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fc3c-cbe2-4dc7-c153" name="Augment Major" hidden="true" collective="false" import="true" targetId="4209-508f-bb42-ddd3" type="selectionEntry">
+      <comment>For strategic reserves. This is currently hidden for future proofing. </comment>
+      <categoryLinks>
+        <categoryLink id="b626-5041-c130-113d" name="Augment Major" hidden="false" targetId="91c7-8db0-03b7-3a3b" primary="false"/>
+        <categoryLink id="8e09-c19c-5f03-d2e3" name="Character" hidden="false" targetId="6754-bfb2-cf67-4d02" primary="false"/>
+        <categoryLink id="e2c6-a5ec-b300-1226" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+        <categoryLink id="a8e3-c612-feab-f604" name="Commander" hidden="false" targetId="1ac3-41ef-6f37-4a2f" primary="false"/>
+        <categoryLink id="429c-bff0-c9d0-72a3" name="New CategoryLink" hidden="false" targetId="3dec-c067-63f8-36d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8e8d-daae-bf70-ab01" name="Augment Scout Tank" hidden="false" collective="false" import="true" targetId="67be-48e4-3fd9-f86c" type="selectionEntry">
+      <comment>For strategic reserves.</comment>
+      <categoryLinks>
+        <categoryLink id="06f9-6844-0c81-1fed" name="Augment Scout Tank" hidden="false" targetId="5346-6b3e-a437-68af" primary="false"/>
+        <categoryLink id="5d89-e6ed-68d6-a550" name="Fly" hidden="false" targetId="1be0-bb9b-f4bb-8d55" primary="false"/>
+        <categoryLink id="0b8d-fb99-7096-ae70" name="Recon" hidden="false" targetId="7036-6761-a7ac-882b" primary="false"/>
+        <categoryLink id="a2f6-dd4c-2b92-d9c6" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+        <categoryLink id="3258-778e-4c69-9271" name="Construct" hidden="false" targetId="c753-938d-5f87-74ef" primary="false"/>
+        <categoryLink id="7b3e-df6f-ecf9-428e" name="New CategoryLink" hidden="false" targetId="3dec-c067-63f8-36d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f562-35fa-aef6-47c0" name="Augment Specialist" hidden="false" collective="false" import="true" targetId="ef76-eb34-f13b-6779" type="selectionEntry">
+      <comment>For strategic reserves.</comment>
+      <categoryLinks>
+        <categoryLink id="4593-4dc4-98ed-a64e" name="Annihilation" hidden="false" targetId="b892-f0d5-e78c-8e98" primary="false"/>
+        <categoryLink id="6426-9047-897a-c085" name="Augment Specialist" hidden="false" targetId="e87b-35a6-8a05-8352" primary="false"/>
+        <categoryLink id="be30-8cc1-3e52-97df" name="Character" hidden="false" targetId="6754-bfb2-cf67-4d02" primary="false"/>
+        <categoryLink id="4219-3122-5493-1546" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+        <categoryLink id="ca6d-ae45-8d0c-85ba" name="Heavy Infantry" hidden="false" targetId="2cb7-a5ba-2936-75c7" primary="false"/>
+        <categoryLink id="fbf5-2994-4bad-b388" name="New CategoryLink" hidden="false" targetId="3dec-c067-63f8-36d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cbc9-3253-0be0-2795" name="Augment Squad" hidden="false" collective="false" import="true" targetId="57c2-4a12-fd81-3cb7" type="selectionEntry">
+      <comment>For strategic reserves.</comment>
+      <categoryLinks>
+        <categoryLink id="0b4b-d4c3-1655-a63a" name="Realm" hidden="false" targetId="8852-02cc-c4b4-c4cd" primary="false"/>
+        <categoryLink id="017c-4f8e-9076-8675" name="Augment Squad" hidden="false" targetId="af00-7944-75e6-2ed1" primary="false"/>
+        <categoryLink id="9508-e0b5-c7dc-87bd" name="Infantry" hidden="false" targetId="34de-b34a-872c-1dcf" primary="false"/>
+        <categoryLink id="0a47-3c58-9533-8e3a" name="Occupation" hidden="false" targetId="7eee-eca5-ef1c-10d3" primary="false"/>
+        <categoryLink id="211d-79fd-ccfc-69d1" name="New CategoryLink" hidden="false" targetId="3dec-c067-63f8-36d7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="cd9f-0bd8-7805-c09e" name="Augment Major" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="cc76-b382-fac8-607b" name="Augment Major" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Infantry</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">6&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">2+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">2</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">3+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">3</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">3</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Character, Commander</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4cc7-4cc2-ec1d-fb11" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f72f-4d20-7409-13ad" name="Competent Command" hidden="false" targetId="091f-4eb4-5137-8515" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="80f0-6122-d460-96e2" name="Phasic Knife" hidden="false" collective="false" import="true" targetId="a77c-9023-a6da-811a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71ac-ae9c-5e0e-a182" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d39a-b90e-012f-df75" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="739f-f918-9cd1-d1a5" name="Magrifle" hidden="false" collective="false" import="true" targetId="29e7-2638-7b86-5b5b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="859a-bf49-ef80-b77c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58b0-e5e2-a420-c557" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="26ec-57ea-4238-b056" name="Augment Specialist" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3404-6fcf-c8af-70d9" name="Augment Specialist" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Heavy Infantry</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">6&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">3+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">2</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">2+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">2</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">2</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Character, Annihilation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8df5-259f-c8db-d009" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="62ae-7749-3352-79fa" name="Brace" hidden="false" targetId="f5fb-d882-4270-82f7" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="b739-7539-41bd-fed6" name="Heavy Gatling Magcannon" hidden="false" collective="false" import="true" targetId="8477-75eb-678a-635b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b175-3f5b-45b3-5f0f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="884e-869b-a7e2-da3d" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="45bf-ef93-77c7-e73b" name="Phasic Knife" hidden="false" collective="false" import="true" targetId="a77c-9023-a6da-811a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72d5-dd12-1155-2caa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c62-1ba2-bee6-de6b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="a237-e0b5-73e7-e942" name="Augment Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3bfc-a02c-f53c-554e" name="Augment Soldier" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Infantry</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">6&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">3+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">2</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">3+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">2</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">2</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Occupation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c7e5-e874-ecf1-ae59" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a016-118a-921b-6a5f" name="Suppressing Fire" hidden="false" targetId="5941-c685-6efa-580b" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="79eb-88e7-ef83-5593" name="Augment Soldier" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f88-6abb-4f16-0727" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c123-fea8-5041-1ecd" type="min"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6373-c4fc-4d1e-1e86" name="Phasic Knife" hidden="false" collective="false" import="true" targetId="a77c-9023-a6da-811a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10fa-0a1b-76c0-3b67" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85a9-7031-2249-bdc8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d299-451b-af22-1b53" name="Gatling Magcannon" hidden="false" collective="false" import="true" targetId="d6fb-400d-9066-1d1a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b36-6f95-83f8-1cd8" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f56-3531-94d6-90eb" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="26a8-15e5-a42b-ccc6" name="Augment Gravbike Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9f7b-d591-0c89-a234" name="Augment Gravbike" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Skirmisher</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">12&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">3+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">3</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">3+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">3</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">3</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Fly, Occupation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="00cf-15af-1296-5d59" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="854b-0880-3b9c-ec31" name="Swift Target" hidden="false" targetId="6aa6-35de-dd22-2136" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="2a7f-546f-1769-e032" name="Augment Gravbike" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="342e-81d0-cf6c-3908" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17ce-89b6-c031-462d" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="293d-3d22-41fc-5b00" name="Phasic Knife" hidden="false" collective="false" import="true" targetId="a77c-9023-a6da-811a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b0-b90c-164f-5d5d" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3aa-bff3-e46a-97b0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="31a9-f287-07c7-c4d2" name="Twin Magrifle" hidden="false" collective="false" import="true" targetId="2bb6-62c3-433d-7cb7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e458-7a1a-a461-fbed" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8579-2390-105c-13ab" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="0021-db51-fbd7-24c9" name="Augment Exosuit Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0d5c-fe78-089e-34ee" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8fa5-6dd4-13b5-4e37" name="Augment Exosuit" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Skirmisher</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">10&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">3+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">5</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">3+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">3</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">2</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Fly, Occupation</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f247-4d92-ab3b-c276" name="Target Guidance" hidden="false" targetId="450a-5c7a-a843-bff1" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="f603-e8fc-0e95-c5e3" name="Exofist" hidden="false" collective="false" import="true" targetId="393f-8ea2-ed45-3123" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de8c-4ff6-f059-0aba" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa3e-fbda-e9e5-2a89" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="578a-40c4-a298-070f" name="Heavy Magrifle" hidden="false" collective="false" import="true" targetId="91ea-46a1-050a-6729" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f3d-f4b7-d426-3e4b" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a504-56e5-5a13-0175" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2ae4-b003-0bdf-563f" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="3253-2d23-81da-e2b6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74f4-b07c-8ada-635d" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a672-a2cf-e98f-7f34" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="1c94-6380-7fd1-4ca1" name="Augment Battle Tank" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8e20-9239-2a04-60f8" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="02e5-d784-d4bf-3f8f" name="Augment Battle Tank" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Construct</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">10&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">3+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">20</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">3+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">2</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">3</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Fly, Annihilation</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8887-254a-1252-9338" name="Tactical Deploy" hidden="false" targetId="3913-15e2-e567-3391" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="a77f-7a38-5f3d-cd4f" name="Gatling Magcannon" hidden="false" collective="false" import="true" targetId="d6fb-400d-9066-1d1a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ef-b190-5527-3e63" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b38b-c967-a369-90d6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a4da-3543-7b4b-b2b7" name="Heavy Rocket Pod" hidden="false" collective="false" import="true" targetId="0afa-4fdb-fdff-496f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ef4-5774-7b0c-cb1b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1493-c2fc-c549-6c4a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e426-bed4-19df-9eb4" name="Heavy Magrail Cannon" hidden="false" collective="false" import="true" targetId="6114-c980-0a4e-085f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad60-e826-7418-d4a8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fc6-ba55-7daf-dac8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="7ddb-9409-7f7b-4903" name="Augment Scout Tank" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="550b-222d-fdae-e4ff" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7358-932e-b7b9-5ae0" name="Augment Scout Tank" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Construct</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">12&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">3+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">10</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">3+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">3</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">3</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Fly, Recon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a085-f819-a170-8e6e" name="Sensor Sweep" hidden="false" targetId="040b-cce2-3762-92d5" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="05f3-c360-6ab1-80bd" name="Twin Magrail Cannon" hidden="false" collective="false" import="true" targetId="c567-1518-0ce8-f3f8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eda-a194-376a-e19e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6437-c104-8f91-0bb1" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="aaeb-9781-cb09-a7f7" name="Gatling Magcannon" hidden="false" collective="false" import="true" targetId="d6fb-400d-9066-1d1a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3705-142a-018f-b79c" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e57-d4a6-6516-c795" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="d0e7-3d05-e336-d16f" name="Augment Battle Tank" hidden="false" collective="false" import="true" type="unit">
+      <comment>For strategic reserves.</comment>
+      <profiles>
+        <profile id="7cac-9c24-1a60-885d" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c06f-ede7-076f-0e3c" name="Augment Battle Tank" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Construct</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">10&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">3+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">20</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">3+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">2</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">3</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Fly, Annihilation</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a858-b9ae-2f77-5b6a" name="Tactical Deploy" hidden="false" targetId="3913-15e2-e567-3391" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="5b58-c370-ab88-9c13" name="Gatling Magcannon" hidden="false" collective="false" import="true" targetId="d6fb-400d-9066-1d1a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a08-71dc-e5f3-7dac" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ee3-0deb-ba05-66ba" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="15e5-d4f7-3575-8584" name="Heavy Rocket Pod" hidden="false" collective="false" import="true" targetId="0afa-4fdb-fdff-496f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5a2-c901-e92f-0f26" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bc0-b057-fb43-4f8e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4ac5-b646-6865-0ee1" name="Heavy Magrail Cannon" hidden="false" collective="false" import="true" targetId="6114-c980-0a4e-085f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d44-c62f-700b-f76c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b8b-b999-8e20-db14" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="9a60-3cfb-a78c-2684" name="Augment Exosuit Squad" hidden="false" collective="false" import="true" type="unit">
+      <comment>For strategic reserves.</comment>
+      <profiles>
+        <profile id="2456-5dd6-decb-4d45" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4126-c420-8ade-3a91" name="Augment Exosuit" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Skirmisher</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">10&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">3+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">5</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">3+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">3</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">2</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Fly, Occupation</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2051-e8ca-dfe4-b1c3" name="Target Guidance" hidden="false" targetId="450a-5c7a-a843-bff1" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="53ba-e446-92d9-6c7a" name="Exofist" hidden="false" collective="false" import="true" targetId="393f-8ea2-ed45-3123" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76aa-cdbd-7a16-4907" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3ab-2d6e-9adb-c9f4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e187-5e93-d187-da1f" name="Heavy Magrifle" hidden="false" collective="false" import="true" targetId="91ea-46a1-050a-6729" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="980f-2ea9-6f47-c68c" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af6e-4795-06ea-24c7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c62e-4ebd-6d96-6868" name="Rocket Pod" hidden="false" collective="false" import="true" targetId="3253-2d23-81da-e2b6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83e8-a91a-b314-72eb" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce4-c592-7adf-323f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="83fc-a47a-0d38-7386" name="Augment Gravbike Squad" hidden="false" collective="false" import="true" type="unit">
+      <comment>For strategic reserves.</comment>
+      <profiles>
+        <profile id="654c-8d2f-c9fc-8287" name="Augment Gravbike" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Skirmisher</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">12&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">3+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">3</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">3+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">3</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">3</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Fly, Occupation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="02a8-c580-ecd6-81f3" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ebe0-f28d-0ef0-bee6" name="Swift Target" hidden="false" targetId="6aa6-35de-dd22-2136" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="965c-2197-53dd-b964" name="Augment Gravbike" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbd7-6099-e63c-a0c4" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9ca-adfc-76bf-8fe1" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d22e-db9d-5388-15e2" name="Phasic Knife" hidden="false" collective="false" import="true" targetId="a77c-9023-a6da-811a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c62-2e7a-9fbd-64d4" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35d2-cc8d-5fa5-54a3" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d435-5631-9478-1f37" name="Twin Magrifle" hidden="false" collective="false" import="true" targetId="2bb6-62c3-433d-7cb7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e443-befc-b8d3-1770" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e041-55df-0629-bdea" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="4209-508f-bb42-ddd3" name="Augment Major" hidden="false" collective="false" import="true" type="model">
+      <comment>For strategic reserves.</comment>
+      <profiles>
+        <profile id="e210-9f67-f2fb-8811" name="Augment Major" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Infantry</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">6&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">2+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">2</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">3+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">3</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">3</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Character, Commander</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8920-d4f5-fc3e-3534" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0ab0-53de-07fd-5639" name="Competent Command" hidden="false" targetId="091f-4eb4-5137-8515" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="ced7-b561-0e15-991f" name="Phasic Knife" hidden="false" collective="false" import="true" targetId="a77c-9023-a6da-811a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6b4-5d41-b8dc-5558" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb62-4188-92d1-9e53" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cf3f-2f05-c3bf-faa5" name="Magrifle" hidden="false" collective="false" import="true" targetId="29e7-2638-7b86-5b5b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60b7-ef60-2d8d-982c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b98-51d8-d744-8825" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="67be-48e4-3fd9-f86c" name="Augment Scout Tank" hidden="false" collective="false" import="true" type="unit">
+      <comment>For strategic reserves.</comment>
+      <profiles>
+        <profile id="4252-c96f-4632-2e66" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4287-e6dc-e0c7-63b4" name="Augment Scout Tank" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Construct</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">12&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">3+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">10</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">3+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">3</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">3</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Fly, Recon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="17bd-e65b-879f-e8bf" name="Sensor Sweep" hidden="false" targetId="040b-cce2-3762-92d5" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="70b9-267d-8042-b40a" name="Twin Magrail Cannon" hidden="false" collective="false" import="true" targetId="c567-1518-0ce8-f3f8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8cb-fd5d-d31c-e4a3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b9-f50c-07b3-c200" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c646-ea51-3be4-456b" name="Gatling Magcannon" hidden="false" collective="false" import="true" targetId="d6fb-400d-9066-1d1a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7d4-f2a1-bbbc-6cc7" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="075c-10d5-81d4-808f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="ef76-eb34-f13b-6779" name="Augment Specialist" hidden="false" collective="false" import="true" type="model">
+      <comment>For strategic reserves.</comment>
+      <profiles>
+        <profile id="cdc7-c82b-c58a-4fec" name="Augment Specialist" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Heavy Infantry</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">6&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">3+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">2</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">2+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">2</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">2</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Character, Annihilation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b10b-bf22-5fb4-f933" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2fd9-83e1-2034-9665" name="Brace" hidden="false" targetId="f5fb-d882-4270-82f7" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="413b-f156-7858-b9a9" name="Heavy Gatling Magcannon" hidden="false" collective="false" import="true" targetId="8477-75eb-678a-635b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0ea-7b05-7bf2-dcd2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b486-9b1b-b939-dd3c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1ccf-be47-ce46-a089" name="Phasic Knife" hidden="false" collective="false" import="true" targetId="a77c-9023-a6da-811a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="910e-7f9d-9bde-790e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29db-963e-d14c-cd88" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="57c2-4a12-fd81-3cb7" name="Augment Squad" hidden="false" collective="false" import="true" type="unit">
+      <comment>For strategic reserves. The RSE for this is hidden for future proofing.</comment>
+      <profiles>
+        <profile id="218a-b936-6b97-e43b" name="Augment Soldier" hidden="false" typeId="62b9-5ab5-6b7a-9ed0" typeName="Unit">
+          <characteristics>
+            <characteristic name="Type" typeId="63fc-9327-98b8-3418">Infantry</characteristic>
+            <characteristic name="MO" typeId="0d90-94c8-b7e5-59f4">6&quot;</characteristic>
+            <characteristic name="AT" typeId="04b9-d28d-5f38-49f4">3+</characteristic>
+            <characteristic name="WO" typeId="1b0e-001c-8f22-3683">2</characteristic>
+            <characteristic name="AR" typeId="36b0-1b12-e9a0-4192">3+</characteristic>
+            <characteristic name="AP" typeId="881f-51ea-ad8b-bda4">2</characteristic>
+            <characteristic name="AL" typeId="ea61-dbbd-d329-d701">2</characteristic>
+            <characteristic name="Traits" typeId="6e2f-4581-2d7d-87e1">Occupation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a13a-3200-8b2f-ec16" name="Shields" hidden="false" typeId="f737-52fc-b490-3ee3" typeName="Shields">
+          <characteristics>
+            <characteristic name="Quantity" typeId="2099-bdc9-ad40-1a55">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2d03-5401-b82f-4a57" name="Suppressing Fire" hidden="false" targetId="5941-c685-6efa-580b" type="profile"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="bfac-d1b4-89c3-8df5" name="Augment Soldier" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0bb-c6bb-7ef8-18a9" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ace9-88cc-4716-4d51" type="min"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7991-8e1b-816b-9ff6" name="Phasic Knife" hidden="false" collective="false" import="true" targetId="a77c-9023-a6da-811a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ecd-d462-8cc9-416c" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45b4-f853-0bf8-af1c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e0c5-2514-2b79-b3bc" name="Gatling Magcannon" hidden="false" collective="false" import="true" targetId="d6fb-400d-9066-1d1a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c3c-6890-d01b-4333" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70ac-d606-8d5f-a935" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="16f4-b124-3e6a-1a6a" name="Battle Hardened" hidden="false">
+      <description>Augment units that take the cleanse action only pay 1 AP instead of 2 AP.</description>
+    </rule>
+    <rule id="bee6-d75e-250a-2c62" name="Shields" hidden="false">
+      <description>Realm units have an additional unit characteristic on their cards called Shields. The number next to this statistic indicates the maximum number of Shield Tokens that the unit can have. Units start the game with a number of Shield Tokens that is equal to their shield’s characteristic value. This should be tracked with Shield Tokens next to the unit. When a unit with Shield Tokens would take damage, instead of assigning that damage to the unit as normal, you will instead remove a Shield Token. For each point of damage taken, 1 token is lost. This is done as an alternative to the model losing a wound. When a unit no longer has any Shield Tokens, assign damage to the unit as normal. Note that this is not optional; shields must be fully removed before damage can be assigned to the unit.
+
+Note: Shields are assigned to a unit and not to an individual model within that unit. A unit of one model is still considered a unit. </description>
+    </rule>
+    <rule id="470a-18ec-adc4-4699" name="Shield Capacitors" hidden="false">
+      <description>Each time a Realm unit is activated, it immediately regains a Shield Token, up to the unit’s maximum shield characteristic.</description>
+    </rule>
+    <rule id="0e1a-3b35-2b29-73ab" name="Special Action: Recharge" hidden="false">
+      <description>All Realm units have access to the following special action:
+
+Special Action: Recharge [1 AP] — Realm units may take the Recharge special action. Recharging may only be done once per activation, and only if the Realm unit has lost at least 1 Shield Token. When this special action is taken, the unit may regain as many as 2 tokens, up to the unit’s maximum shield characteristic.</description>
+    </rule>
+  </sharedRules>
+</catalogue>
